@@ -1,0 +1,59 @@
+# Ambiente Virtual
+# (Evita subir as bibliotecas instaladas para o GitHub)
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivos de bytecode gerados pelo Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de log e banco de dados
+*.log
+*.sqlite
+*.sqlite3
+
+# Arquivos de configuração sensíveis (contendo chaves API e senhas)
+.env
+local_settings.py
+secrets.py
+
+# Pacotes e Distribuição
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Cobertura de testes e relatórios de execução
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.tox/
+.nox/
+
+# Arquivos gerados por IDEs (VS Code, PyCharm, etc.)
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Arquivos de sistema operacional
+.DS_Store
+Thumbs.db
